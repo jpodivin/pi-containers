@@ -8,7 +8,11 @@ git \
 curl \
 ripgrep \
 nodejs \
-wget
+wget \
+jq \
+tree \
+nodejs \
+python3
 
 RUN useradd -m -s /bin/bash node
 RUN pnpm config set minimumReleaseAge 2880
